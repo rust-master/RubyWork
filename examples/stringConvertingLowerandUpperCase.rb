@@ -1,12 +1,10 @@
-# input the string
 puts "Enter the string"
 str=gets.chomp
 
-#ask for the option
+
 puts "Choose the option: a)to lowercase b)to uppercase"
 choice=gets.chomp
 
-# condition to execute code based on the user's choice
 if(choice=="a")
 	i=0
 	while(i!=str.size)
